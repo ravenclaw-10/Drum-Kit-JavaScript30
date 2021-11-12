@@ -1,0 +1,13 @@
+body{
+    background-image:url(./Resources/1D-concert.jpg);
+    background-size:cover;
+}
+
+h1{
+    font-family:'Lobster', cursive;
+    font-size:40px;
+    color:gold;
+    display:block;
+    width:30%;
+    margin:50px auto;
+}
