@@ -4,10 +4,58 @@ body{
 }
 
 h1{
-    font-family:'Lobster', cursive;
-    font-size:40px;
-    color:gold;
+    font-family:cursive;
+    font-size:48px;
+    color:rgb(255, 217, 0);
     display:block;
+    text-shadow:0 0 10px red;
     width:30%;
     margin:50px auto;
 }
+
+
+.keys {
+    max-height:70%;
+    max-width:80%;
+    margin: 0 auto;
+    display:flex;
+    position:relative;
+    top:120px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 15px;
+    transition: all .1s;
+    width:20px;
+    padding:10px;
+    padding-left:40px;
+    padding-right:45px;
+    text-align: center;
+    color:rgb(233, 110, 110);
+    background: rgba(#111F28, 0.9);
+  }
+
+  kbd {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    text-align:center;
+    color:rgb(255, 217, 0);
+  }
+
+  .playing{
+    transform:scale(1.1);
+    border-color:gold;
+    box-shadow:0 0 10px gold;
+    color:gold;
+  
+  }
+
+  .sound{
+    text-align:left;
+  }
