@@ -5,58 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Praise&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/66f3e414e0.js" crossorigin="anonymous"></script>
     <title>Drum Kit</title>
     <script src="index.js"></script>
 </head>
 <body>
-    <h1><strong><em>THE DRUM KIT</em></strong></h1>
+    <h1><em>THE DRUM KIT</em></h1>
+
+    <!-- For Lower case letters -->
 
     <div class="keys">      
-        <div data-key="65" class="key">
+        <div data-key="a" class="key">
             <kbd>A</kbd>
             <span class="sound">clap</span>
         </div>    
-        <div data-key="83" class="key">
+        <div data-key="s" class="key">
             <kbd>S</kbd>
-            <span class="sound">clap</span>
-        </div>    
-        <div data-key="68" class="key">
+            <span class="sound">kick</span>
+        </div>   
+        <div data-key="d" class="key">
             <kbd>D</kbd>
-            <span class="sound">clap</span>
+            <span class="sound">boom</span>
         </div>    
-        <div data-key="70" class="key">
+        <div data-key="f" class="key">
             <kbd>F</kbd>
-            <span class="sound">clap</span>
+            <span class="sound">hihat</span>
         </div>    
-        <div data-key="74" class="key">
+        <div data-key="j" class="key">
             <kbd>J</kbd>
-            <span class="sound">clap</span>
+            <span class="sound">openhat</span>
         </div>    
-        <div data-key="75" class="key">
+        <div data-key="k" class="key">
             <kbd>K</kbd>
-            <span class="sound">clap</span>
+            <span class="sound">ride</span>
         </div>    
-        <div data-key="76" class="key">
+        <div data-key="l" class="key">
             <kbd>L</kbd>
-            <span class="sound">clap</span>
-        </div>    
-        <div data-key="186" class="key">
+            <span class="sound">snare</span>
+        </div>     
+        <div data-key=";" class="key">
             <kbd>;</kbd>
-            <span class="sound">clap</span>
+            <span class="sound">tom</span>
         </div>    
     </div>
     
-    <audio data-key="65" src=""></audio>
-    <audio data-key="83" src=""></audio>
-    <audio data-key="68" src=""></audio>
-    <audio data-key="70" src=""></audio>
-    <audio data-key="74" src=""></audio>
-    <audio data-key="75" src=""></audio>
-    <audio data-key="76" src=""></audio>
-    <audio data-key="186" src=""></audio>
+    <audio data-key="a" src="Resources/sounds/Clap.wav"></audio>
+    <audio data-key="s" src="Resources/sounds/kick.wav"></audio>
+    <audio data-key="d" src="Resources/sounds/boom.wav"></audio>
+    <audio data-key="f" src="Resources/sounds/hihat.wav"></audio>
+    <audio data-key="j" src="Resources/sounds/openhat.wav"></audio>
+    <audio data-key="k" src="Resources/sounds/ride.wav"></audio>
+    <audio data-key="l" src="Resources/sounds/snare.wav"></audio>
+    <audio data-key=";" src="Resources/sounds/tom.wav"></audio>
+
+
+    <!--For Uppercase letters
+
+
+    <div >      
+        <div data-key="A" >
+            <span >clap</span>
+        </div>    
+        <div data-key="S" >
+            <span >kick</span>
+        </div>   
+        <div data-key="D" >
+            <span >boom</span>
+        </div>    
+        <div data-key="F" >
+            <span >hihat</span>
+        </div>    
+        <div data-key="J" >
+            <span >openhat</span>
+        </div>    
+        <div data-key="K" >
+            <span >ride</span>
+        </div>    
+        <div data-key="L">
+            <span >snare</span>
+        </div> 
+    </div>
+    
+    <audio data-key="A" src="Resources/sounds/Clap.wav"></audio>
+    <audio data-key="S" src="Resources/sounds/kick.wav"></audio>
+    <audio data-key="D" src="Resources/sounds/boom.wav"></audio>
+    <audio data-key="F" src="Resources/sounds/hihat.wav"></audio>
+    <audio data-key="J" src="Resources/sounds/openhat.wav"></audio>
+    <audio data-key="K" src="Resources/sounds/ride.wav"></audio>
+    <audio data-key="L" src="Resources/sounds/snare.wav"></audio>
+
+    -->
 
 </body>
 </html>
