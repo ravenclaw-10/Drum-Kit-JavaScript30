@@ -1,1 +1,1 @@
-# Drum-Kit-JavaScript30
+# DrumKit-JS
